@@ -1,0 +1,5 @@
+// dotnet aspnet-codegenerator identity -dc BookstoreContext create "manager" -email "admin@gmail.com" -pw "1234" -role "AdminRoleName"
+// dotnet aspnet-codegenerator identity -dc <YourDbContext> create "AdminUserName" -email "AdminEmail" -pw "AdminPassword" -role "AdminRoleName"
+// dotnet aspnet-codegenerator identity -dc <YourDbContext> create "NormalUserName" -email "NormalEmail" -pw "NormalPassword"
+
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-7.0
